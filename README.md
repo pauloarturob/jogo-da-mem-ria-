@@ -53,3 +53,7 @@ Este projeto está sob a licença MIT - veja o arquivo LICENSE para mais detalhe
 
 👏 Agradecimentos
 Um agradecimento especial ao professor da Dio.me pela orientação e a todos que contribuíram para este projeto!
+
+<div class="telaJogo">
+    <img src="https://github.com/user-attachments/assets/35315c91-fb6b-4413-ab5a-cd79dd9ff228" alt="tela do jogo" width="500px">
+</div>
