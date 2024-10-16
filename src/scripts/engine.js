@@ -7,6 +7,7 @@ let seconds = 0;
 // Carregar sons
 const successSound = new Audio('/src/sound/acerto.mp3');
 const errorSound = new Audio('/src/sound/error-4-199275.mp3');
+const inicioReset = new Audio('/src/sound/reset.mp3');
 
 document.addEventListener("DOMContentLoaded", () => {
     startGame();
@@ -63,6 +64,7 @@ function resetGame() {
     document.getElementById("timer").textContent = "00:00";
     startGame();
     startTimer();
+    successSound.play(); // Tocar som de reset
 }
 
 function startTimer() {
